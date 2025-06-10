@@ -79,4 +79,6 @@ def ejecutar_chat():
         agregar_mensajes_previos("assistant",respuesta_contenido)
         mostrar_mensaje("assistant",respuesta_contenido)
 
-
+# EJECUTAR LA APP( si __name__ es igual a __main__ se ejecuta la funcion, y __main__ es mi archivo principal)
+if __name__ == '__main__':
+    ejecutar_chat()
